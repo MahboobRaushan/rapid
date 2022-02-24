@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/blocflya/rapid.blockstudio.asia/
+    - /bin/cp * $DEPLOYPATH
