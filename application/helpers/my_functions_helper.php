@@ -2,6 +2,7 @@
 
 hooks()->add_action('admin_init', 'my_custom_menu_item_collapsible');
 
+
 function my_custom_menu_item_collapsible()
 {
     $CI = &get_instance();
@@ -40,7 +41,7 @@ function my_custom_menu_item_collapsible()
         'href'     => admin_url(''),
         'name'     => 'Staff Workload', // The name if the item
         'position' => 3, // The menu position
-        'icon'     => 'fa fa-user', // Font awesome icon
+        'icon'     => 'fa fa-user', // Font awesome icon is
         
     ]);
     
