@@ -25,7 +25,7 @@ if($_SERVER['HTTP_HOST']=='localhost')
     }
 else
     {
-        define('APP_BASE_URL', 'https://blockstudio.asia/rapid/');
+        define('APP_BASE_URL', 'https://rapid.blockstudio.asia/');
     }
 
 /*
